@@ -1,0 +1,169 @@
+2026-08-23T21:26:46.831Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-08-23T21:26:46.831Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "projectPath": "B:\\SuperIpScanner\\Backend\\backendscanner",
+  "event": "precheckCompleted",
+  "phase": "precheck",
+  "status": "succeeded",
+  "details": {
+    "components": [
+      {
+        "name": "jdk",
+        "baseVersion": "7",
+        "targetVersion": "25"
+      }
+    ]
+  },
+  "message": "Maven Java project detected; upgrading the Java target from 7 to latest LTS Java 25."
+}}).
+2026-08-23T21:26:46.831Z [INFO] [Tool.invoke] do invoke.
+2026-08-23T21:26:46.832Z [INFO] Project B:\SuperIpScanner\Backend\backendscanner is a maven project, try to get java version from pom.xml
+2026-08-23T21:26:46.834Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'precheckCompleted' reported!\nSession ID: 20260823212646,\nSession Dir: B:\\SuperIpScanner\\Backend\\backendscanner\\.github\\modernize\\java-upgrade\\20260823212646"
+}}).
+2026-08-23T21:26:46.834Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-08-23T21:26:46.835Z [INFO] Project java version: 7
+2026-08-23T21:26:46.835Z [INFO] Maven project detected.
+2026-08-23T21:26:46.836Z [INFO] Build tool type: mvn
+2026-08-23T21:26:46.876Z [INFO] JDK: undefined
+2026-08-23T21:26:46.876Z [ERROR] Failed to detect or resolve JDK for the project at B:\SuperIpScanner\Backend\backendscanner.
+2026-08-23T21:26:46.876Z [WARN] [ReportEventTool] Full project info unavailable, attempting lightweight fallback: UserError: Failed to detect or resolve JDK for the project at B:\SuperIpScanner\Backend\backendscanner. Please ensure JDK 7 is installed and properly configured on the machine.
+2026-08-23T21:26:46.877Z [INFO] Maven project detected.
+2026-08-23T21:26:46.877Z [INFO] Project B:\SuperIpScanner\Backend\backendscanner is a maven project, try to get java version from pom.xml
+2026-08-23T21:26:48.219Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-08-23T21:26:48.220Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "sessionId": "20260823212646",
+  "projectPath": "B:\\SuperIpScanner\\Backend\\backendscanner",
+  "event": "planGenerationStarted",
+  "phase": "plan",
+  "status": "succeeded"
+}}).
+2026-08-23T21:26:48.220Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-08-23T21:26:48.220Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-08-23T21:26:48.221Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-08-23T21:26:48.246Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-08-23T21:26:48.246Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "sessionId": "20260823212646",
+  "projectPath": "B:\\SuperIpScanner\\Backend\\backendscanner",
+  "event": "planGenerationStarted",
+  "phase": "plan",
+  "status": "succeeded"
+}}).
+2026-08-23T21:26:48.246Z [INFO] [Tool.invoke] do invoke.
+2026-08-23T21:26:48.247Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planGenerationStarted' reported!\nSession ID: 20260823212646,\nSession Dir: B:\\SuperIpScanner\\Backend\\backendscanner\\.github\\modernize\\java-upgrade\\20260823212646"
+}}).
+2026-08-23T21:26:48.247Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-08-23T21:26:52.248Z [INFO] ---------------------prepare appmod-list-jdks----------------------
+2026-08-23T21:26:52.248Z [INFO] [Tool.prepareInvocation]({name: appmod-list-jdks, input: {
+  "sessionId": "20260823212646",
+  "additionalSearchPaths": [
+    "C:\\Program Files\\Java",
+    "C:\\Program Files\\Eclipse Adoptium",
+    "C:\\Program Files\\Microsoft"
+  ],
+  "version": "25"
+}}).
+2026-08-23T21:26:52.248Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-08-23T21:26:52.249Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "List jdks"
+}}).
+2026-08-23T21:26:52.249Z [INFO] ----------------------prepared appmod-list-jdks----------------------
+2026-08-23T21:26:52.291Z [INFO] ----------------------invoke appmod-list-jdks----------------------
+2026-08-23T21:26:52.292Z [INFO] [Tool.invoke]({name: appmod-list-jdks, modelId: auto, input: {
+  "sessionId": "20260823212646",
+  "additionalSearchPaths": [
+    "C:\\Program Files\\Java",
+    "C:\\Program Files\\Eclipse Adoptium",
+    "C:\\Program Files\\Microsoft"
+  ],
+  "version": "25"
+}}).
+2026-08-23T21:26:52.292Z [INFO] [Tool.invoke] do invoke.
+2026-08-23T21:26:52.320Z [INFO] [Tool.invoke]({result: {
+  "message": "We found following jdks in your system:\n\n1. Java 25.0.2\n   📁 Path: C:\\Program Files\\Java\\jdk-25.0.2\\bin\n   🏷️ Source: PATH,JAVA_HOME\n\nTotal: 1 JDK installation(s) found"
+}}).
+2026-08-23T21:26:52.320Z [INFO] ----------------------invoked appmod-list-jdks----------------------
+2026-08-23T21:26:52.331Z [INFO] ---------------------prepare appmod-list-jdks----------------------
+2026-08-23T21:26:52.331Z [INFO] [Tool.prepareInvocation]({name: appmod-list-jdks, input: {
+  "sessionId": "20260823212646",
+  "additionalSearchPaths": [
+    "C:\\Program Files\\Java",
+    "C:\\Program Files\\Eclipse Adoptium",
+    "C:\\Program Files\\Microsoft"
+  ]
+}}).
+2026-08-23T21:26:52.331Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-08-23T21:26:52.332Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "List jdks"
+}}).
+2026-08-23T21:26:52.332Z [INFO] ----------------------prepared appmod-list-jdks----------------------
+2026-08-23T21:26:52.420Z [INFO] ----------------------invoke appmod-list-jdks----------------------
+2026-08-23T21:26:52.420Z [INFO] [Tool.invoke]({name: appmod-list-jdks, modelId: auto, input: {
+  "sessionId": "20260823212646",
+  "additionalSearchPaths": [
+    "C:\\Program Files\\Java",
+    "C:\\Program Files\\Eclipse Adoptium",
+    "C:\\Program Files\\Microsoft"
+  ]
+}}).
+2026-08-23T21:26:52.420Z [INFO] [Tool.invoke] do invoke.
+2026-08-23T21:26:52.435Z [INFO] [Tool.invoke]({result: {
+  "message": "We found following jdks in your system:\n\n1. Java 24.0.2\n   📁 Path: C:\\Program Files\\Java\\jdk-24\\bin\n   🏷️ Source: others\n\n2. Java 25.0.2\n   📁 Path: C:\\Program Files\\Java\\jdk-25.0.2\\bin\n   🏷️ Source: PATH,JAVA_HOME\n\nTotal: 2 JDK installation(s) found"
+}}).
+2026-08-23T21:26:52.435Z [INFO] ----------------------invoked appmod-list-jdks----------------------
+2026-08-23T21:26:52.446Z [INFO] ---------------------prepare appmod-list-mavens----------------------
+2026-08-23T21:26:52.446Z [INFO] [Tool.prepareInvocation]({name: appmod-list-mavens, input: {
+  "sessionId": "20260823212646",
+  "additionalSearchPaths": [
+    "B:\\SuperIpScanner\\Backend\\backendscanner"
+  ],
+  "includeVersion": true
+}}).
+2026-08-23T21:26:52.446Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-08-23T21:26:52.447Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "List mavens"
+}}).
+2026-08-23T21:26:52.447Z [INFO] ----------------------prepared appmod-list-mavens----------------------
+2026-08-23T21:26:52.524Z [INFO] ----------------------invoke appmod-list-mavens----------------------
+2026-08-23T21:26:52.524Z [INFO] [Tool.invoke]({name: appmod-list-mavens, modelId: auto, input: {
+  "sessionId": "20260823212646",
+  "additionalSearchPaths": [
+    "B:\\SuperIpScanner\\Backend\\backendscanner"
+  ],
+  "includeVersion": true
+}}).
+2026-08-23T21:26:52.525Z [INFO] [Tool.invoke] do invoke.
+2026-08-23T21:26:53.205Z [INFO] [Tool.invoke]({result: {
+  "message": "We found following maven installations in your system:\n\n1. Maven 3.10.0-rc-1\n   📁 Path: C:\\Users\\letul\\.maven\\maven-3.10.0-rc-1\\bin\n   🏷️ Source: install\n\nTotal: 1 Maven installation(s) found"
+}}).
+2026-08-23T21:26:53.205Z [INFO] ----------------------invoked appmod-list-mavens----------------------
+2026-08-23T21:27:21.097Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-08-23T21:27:21.097Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "sessionId": "20260823212646",
+  "projectPath": "B:\\SuperIpScanner\\Backend\\backendscanner",
+  "event": "planReviewed",
+  "phase": "plan",
+  "status": "succeeded",
+  "message": "Plan covers Java 25 target, required Maven plugin compatibility updates, baseline skip, validation, and non-Git workspace constraints."
+}}).
+2026-08-23T21:27:21.098Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-08-23T21:27:21.098Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-08-23T21:27:21.098Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-08-23T21:27:21.124Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-08-23T21:27:21.124Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "sessionId": "20260823212646",
+  "projectPath": "B:\\SuperIpScanner\\Backend\\backendscanner",
+  "event": "planReviewed",
+  "phase": "plan",
+  "status": "succeeded",
+  "message": "Plan covers Java 25 target, required Maven plugin compatibility updates, baseline skip, validation, and non-Git workspace constraints."
+}}).
+2026-08-23T21:27:21.124Z [INFO] [Tool.invoke] do invoke.
+2026-08-23T21:27:21.125Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planReviewed' reported!\nSession ID: 20260823212646,\nSession Dir: B:\\SuperIpScanner\\Backend\\backendscanner\\.github\\modernize\\java-upgrade\\20260823212646"
+}}).
+2026-08-23T21:27:21.125Z [INFO] ----------------------invoked appmod-report-event----------------------
