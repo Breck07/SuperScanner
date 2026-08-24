@@ -35,7 +35,6 @@ public class DomainAPI {
 
         JsonObject root = GSON.fromJson(response.body(), JsonObject.class);
         
-        // Safely extract the inner response object and map it to your Java POJO
         DomainScanResult scanResult = GSON.fromJson(root.get("response"), DomainScanResult.class);
         
         displayResponse(scanResult);
