@@ -50,7 +50,7 @@ public class DomainAPI {
         System.out.println("========================================");
         System.out.println("DOMAIN SCAN PROFILE: " + result.getDomain().toUpperCase());
         System.out.println("========================================");
-        System.out.printf("Is Flagged:  %s%n", result.isFlagged() ? "❌ YES" : "✅ NO");
+        System.out.printf("Is Flagged:  %s%n", result.isFlagged() ? "X YES" : "! NO");
         System.out.printf("Reputation:  %d%n", result.getReputation());
         System.out.printf("Registrar:   %s%n", result.getRegistrar());
         
